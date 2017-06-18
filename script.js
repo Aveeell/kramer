@@ -1,5 +1,5 @@
 var n = +prompt("Введи размерность матрицы", "2");
-var startStr = prompt("Введи коэффициенты перед х через запятую", "1 2 3 4");
+var startStr = prompt("Введи коэффициенты перед х через пробелы", "1 2 3 4");
 var question = confirm("Хотите расчет по методу Крамера?");
 
 var array = startStr.split(" ");
